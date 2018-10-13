@@ -11,9 +11,9 @@ class RstProto < Formula
   depends_on 'cmake' => :build
   depends_on 'rsc'
   depends_on 'protobuf'
-  depends_on :python
+  depends_on 'python'
   # FIX-ME this no longer works with brew
-  #depends_on :python => ['google.protobuf' => 'protobuf']
+  #depends_on 'python' => ['google.protobuf' => 'protobuf']
 
   def install
     ENV.universal_binary if build.universal?

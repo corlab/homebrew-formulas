@@ -9,7 +9,7 @@ class Spread < Formula
   option :universal
 
   def install
-    ENV.j1
+    ENV.deparallelize
     ENV.universal_binary if build.universal?
 
     system "./configure", "--prefix=#{prefix}"
