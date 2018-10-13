@@ -10,7 +10,7 @@ class Spread < Formula
 
   def install
     ENV.deparallelize
-    #ENV.universal_binary if build.universal?
+    ENV.universal_binary if build.universal?
 
     system "./configure", "--prefix=#{prefix}"
 
