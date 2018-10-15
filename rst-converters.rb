@@ -2,8 +2,8 @@ require 'formula'
 
 class RstConverters < Formula
   homepage 'https://toolkit.cit-ec.uni-bielefeld.de/components/generic/robotics-system-types'
-  url 'https://code.cor-lab.de/git/rst.git.converters.git', :using => :git, :branch => '0.15'
-  version '0.15'
+  url 'https://code.cor-lab.de/git/rst.git.converters.git', :using => :git, :branch => '0.17'
+  version '0.17'
   head 'https://code.cor-lab.de/git/rst.git.converters.git', :using => :git
 
   option :universal

@@ -3,7 +3,7 @@ require 'formula'
 class RsbOpencv < Formula
   #homepage 'https://toolkit.cit-ec.uni-bielefeld.de/components/tools/rsb-gstreamer-integration'
   url 'https://code.cor-lab.de/svn/rsbvideoreceiver/branches/refactoring', :using => :svn
-  version '0.15'
+  version '0.17'
   head 'https://code.cor-lab.org/svn/rsbvideoreceiver/trunk', :using => :svn
 
   option :universal
