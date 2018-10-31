@@ -1,9 +1,9 @@
 require 'formula'
 
-class Rsc < Formula
+class RscAT018 < Formula
   homepage 'https://toolkit.cit-ec.uni-bielefeld.de/components/generic/robotics-systems-commons'
-  url 'https://code.cor-lab.org/git/rsc.git', :using => :git, :branch => '0.17'
-  version '0.17'
+  url 'https://code.cor-lab.org/git/rsc.git', :using => :git, :branch => '0.18'
+  version '0.18'
   head 'https://code.cor-lab.org/git/rsc.git', :using => :git
 
   option :universal

@@ -19,7 +19,7 @@ class Liboncilla < Formula
 
   def install
     # ENV.x11 # if your formula requires any X11 headers
-    # ENV.j1  # if your formula's build system can't parallelize
+    # ENV.deparallelize  # if your formula's build system can't parallelize
     ENV.universal_binary if build.universal?
     args = std_cmake_args
 

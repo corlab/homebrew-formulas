@@ -1,9 +1,9 @@
 require 'formula'
 
-class RstConverters < Formula
+class RstConvertersAT018 < Formula
   homepage 'https://toolkit.cit-ec.uni-bielefeld.de/components/generic/robotics-system-types'
-  url 'https://code.cor-lab.de/git/rst.git.converters.git', :using => :git, :branch => '0.17'
-  version '0.17'
+  url 'https://code.cor-lab.de/git/rst.git.converters.git', :using => :git, :branch => '0.18'
+  version '0.18'
   head 'https://code.cor-lab.de/git/rst.git.converters.git', :using => :git
 
   option :universal
@@ -11,8 +11,8 @@ class RstConverters < Formula
   depends_on 'cmake' => :build
   depends_on 'rci' => :optional
   depends_on 'opencv' => :optional
-  depends_on 'rsb'
-  depends_on 'rst-proto'
+  depends_on 'rsb@0.18'
+  depends_on 'rst-proto@0.18'
 
   def install
     ENV.universal_binary if build.universal?

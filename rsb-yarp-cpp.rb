@@ -2,8 +2,8 @@ require 'formula'
 
 class RsbYarpCpp < Formula
   homepage 'https://toolkit.cit-ec.uni-bielefeld.de/components/generic/robotics-service-bus'
-  url 'https://code.cor-lab.org/git/rsb.git.yarp-cpp', :using => :git, :branch => '0.15'
-  version '0.15'
+  url 'https://code.cor-lab.org/git/rsb.git.yarp-cpp', :using => :git, :branch => '0.17'
+  version '0.17'
   head 'https://code.cor-lab.org/git/rsb.git.yarp-cpp', :using => :git
 
   option :universal

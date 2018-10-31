@@ -2,8 +2,8 @@ require 'formula'
 
 class RsbGstreamer < Formula
   homepage 'https://toolkit.cit-ec.uni-bielefeld.de/components/tools/rsb-gstreamer-integration'
-  url 'https://code.cor-lab.de/git/rsb-gstreamer.git', :using => :git, :branch => '0.15'
-  version '0.15'
+  url 'https://code.cor-lab.de/git/rsb-gstreamer.git', :using => :git, :branch => '0.17'
+  version '0.17'
   head 'https://code.cor-lab.de/git/rsb-gstreamer.git', :using => :git
 
   option :universal
